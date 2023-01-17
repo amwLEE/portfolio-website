@@ -307,6 +307,10 @@ html[light-mode="dark"] {
 color: #ffffff !important;
 }
 
+.dark-theme .navbar-brand:hover{
+  color: #bb86fc !important;
+}
+
 .dark-theme .first,
 .dark-theme .second,
 .dark-theme .third {
@@ -435,8 +439,11 @@ html[light-mode="light"] .nav-link{
 html[light-mode="light"] .nav-link:hover{
   color: 	rgb(106, 0, 187) !important;
 }
-html[light-mode="light"] .navbar-brand:hover{
+html[light-mode="light"] .navbar-brand {
   color: #000000 !important;
+}
+html[light-mode="light"] .navbar-brand:hover{
+  color: #bb86fc !important;
 }
 
 @media (min-width: 992px) {
